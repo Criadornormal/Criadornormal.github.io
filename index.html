@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cavalotbm.css" midia="screen">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <div>
+        <h1 id="titulo">Cadastro de Cavalos</h1>
+        <p id="subtitulo">Complete suas Informações para a sua proxima reencarnação</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label>nome</label>
+                <input type="text" nome="nome"  id="nome" required>
+            </div>
+            
+            <div class="campo">
+                <label for="sobrenome">sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome" required>
+            </div>
+        </fieldset>
+
+        <div class="campo"> 
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="campo">
+            <br><label>Qual sera a sua raça?</label>
+            <select id="Qual e o seu tipo">
+                <option select disbled value="">Selecione</option>
+                <option>Cavalo Branco</option>
+                <option>Cavalo Preto</option>
+                <option>Cavalo Mestiço</option>
+                <option>Cavalo da Morte</option>
+                <option>Cavalo Demoniaco</option>
+                <option>Cavalo Angelical</option>
+                <opition>Cavalo Alado</opition>
+                <opition>Cavalo Magico</opition>
+                <opition>Unicornio</opition>
+                <opition>Pegaso</opition>
+                <opition>Cavalo de Guerra</opition>
+            </select>
+        </div>
+
+        <div class="campo">
+            <br><label>Qual e o seu tipo?</label>
+            <select id="Qual e o seu tipo"> 
+                <option select disbled value="">Selecione</option>
+                <option>Campo</option>
+                <option>Corrida</option>
+                <option>Estimação</option>
+                <opition>Astral</opition>
+                <opition>Psiquico</opition>         
+            </select>
+        </div>
+        
+        <fieldset class="grupo">             
+            <div class="check">
+                <label>Selecione as suas especiaslidades:</label><br><br>
+                <input type="checkbox" id="Trote" name="Trote" value="Trote">Trote
+                <input type="checkbox" id="Acrobatica" name="Acrobatica" value="Trote">Acrobatica
+                <input type="checkbox" id="Velocidade" name="Velocidade" value="Velocidade">Velocidade
+                <input type="checkbox" id="Resistencia" name="Resistencia" value="Resistencia">Resistencia
+                <input type="checkbox" id="Defesa" name="Defesa" value="Defesa">Defesa
+                <input type="checkbox" id="Ataque" name="Ataque" value="Ataque">Ataque
+                <input type="checkbox" id="Magia" name="Magia" value="Trote">Magia
+                <input type="checkbox" id="Defesa Magica" name="Defesa Magica" value="Defesa Magica">Defesa Magica
+                <input type="checkbox" id="Ataque Magico" name="Ataque Magico" value="Ataque Magico">Ataque Magico
+            </div>
+    </fieldset>
+    <div class="campo">
+        <br>
+        <label> Conte para nois, como você chegou nesse <strong>Formulario Irrevercivel?:</strong></label>
+        <br><textarea row="10" style="width: 26em" id="acaso" name="acaso"></textarea>
+    </div>
+
+    <br><button type="submit" class="botao">Enviar</buton>
+    
+    </form>
+</body>
+</html>
